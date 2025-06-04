@@ -1,0 +1,28 @@
+
+Call:
+lm(formula = foldchange ~ SEC61 + SEC62 + SEC63 + SEC66 + SEC72 + 
+    SBH1 + SBH2 + SSH1 + SSS1, data = translocon)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-4.8605 -1.0397 -0.1544  0.6666  6.7773 
+
+Coefficients:
+              Estimate Std. Error t value Pr(>|t|)    
+(Intercept)  9.245e-01  5.078e-01   1.821  0.07083 .  
+SEC61        9.744e-05  3.301e-05   2.951  0.00371 ** 
+SEC62        1.071e-04  2.211e-05   4.845 3.34e-06 ***
+SEC63       -4.899e-05  2.027e-05  -2.418  0.01692 *  
+SEC66        3.939e-05  1.631e-05   2.415  0.01701 *  
+SEC72        8.665e-05  2.105e-05   4.116 6.59e-05 ***
+SBH1         3.792e-05  1.927e-05   1.968  0.05109 .  
+SBH2         1.645e-05  1.809e-05   0.909  0.36486    
+SSH1         3.726e-05  4.414e-05   0.844  0.39997    
+SSS1         4.855e-05  1.690e-05   2.872  0.00472 ** 
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 2.037 on 139 degrees of freedom
+Multiple R-squared:  0.4846,	Adjusted R-squared:  0.4512 
+F-statistic: 14.52 on 9 and 139 DF,  p-value: 2.221e-16
+
